@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <script src="/static/weather.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+    
+</head>
+<h3>Weather screen</h3>
+
+<div class="window">
+    
+<div class="table">
+    <button onclick="get_weather_data_1()">City number 1</button>
+    <button onclick="get_weather_data_2()">City number 2</button>
+    <button onclick="get_weather_data_3()">City number 3</button>
+    <table>
+        <tr>
+            <th>Info</th>
+            <th>City 1</th>
+            <th>City 2</th>
+            <th>City 3</th>
+        </tr>
+        <tr>
+        <td>Location</td>
+        <td id="location1"></td>
+        <td id="location2"></td>
+        <td id="location3"></td>
+        </tr>
+
+        <tr>
+        <td>Country</td>
+        <td id="country1"></td>
+        <td id="country2"></td>
+        <td id="country3"></td>
+        </tr>
+
+        <tr>
+            <td>Local time</td>
+            <td id="local_time1"></td>
+            <td id="local_time2"></td>
+            <td id="local_time3"></td>
+        </tr>
+      
+        <tr>
+            <td>Temprature(c)</td>
+            <td id="temprature1"></td>
+            <td id="temprature2"></td>
+            <td id="temprature3"></td>
+        </tr>
+       <tr>
+            <td>Wind(kph)</td>
+            <td id="wind1"></td>
+            <td id="wind2"></td>
+            <td id="wind3"></td>
+       </tr>
+       
+       <tr>
+            <td>Humidity(%)</td>
+            <td id="humidity1"></td>
+            <td id="humidity2"></td>
+            <td id="humidity3"></td>
+       </tr>
+        
+        <tr> 
+            <td>Last update</td>
+            <td id="last_updated1"></td>
+            <td id="last_updated2"></td>
+            <td id="last_updated3"></td>
+        </tr>
+        
+        </tr>
+    </table>
+</div>
+   
+
+</body>
+</html>

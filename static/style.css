@@ -1,0 +1,17 @@
+table,th,tr,td{
+    border: 1px solid black;
+    
+    
+}
+
+.table{
+    margin-left: 30vw;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+
+
